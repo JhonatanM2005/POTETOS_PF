@@ -55,6 +55,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Model\Admin.cs" />
+    <Compile Include="Model\Chef.cs" />
+    <Compile Include="Model\Menu.cs" />
+    <Compile Include="Model\Mesas.cs" />
+    <Compile Include="Model\Mesero.cs" />
+    <Compile Include="Model\Usuario.cs" />
+    <Compile Include="Utils\DatabaseConnection.cs" />
     <Compile Include="View\frm_index.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -98,7 +105,6 @@
     <Compile Include="View\frm_admin.Designer.cs">
       <DependentUpon>frm_admin.cs</DependentUpon>
     </Compile>
-    <Compile Include="Model\cls_users.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
