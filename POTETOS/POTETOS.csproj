@@ -98,7 +98,7 @@
     <Compile Include="View\frm_admin.Designer.cs">
       <DependentUpon>frm_admin.cs</DependentUpon>
     </Compile>
-    <Compile Include="Controller\cls_users.cs" />
+    <Compile Include="Model\cls_users.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
@@ -161,7 +161,7 @@
     <None Include="Resources\entrega-rapida.png" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Model\" />
+    <Folder Include="Controller\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
