@@ -13,6 +13,7 @@ namespace POTETOS
     public partial class frm_index : Form
     {
         private readonly UsuarioController _usuarioController;
+        private readonly MesaController _mesaController;
         private readonly string _tipoUsuario;
         private readonly Usuario _usuarioActual;
         private readonly Dictionary<Button, Mesa> _mesas = new Dictionary<Button, Mesa>();
@@ -22,6 +23,7 @@ namespace POTETOS
         {
             InitializeComponent();
             _usuarioController = new UsuarioController();
+            _mesaController = new MesaController();
             _tipoUsuario = tipoUsuario;
             _usuarioActual = SesionUsuario.Instance.UsuarioActual;
             ConfigurarPermisos();
@@ -132,6 +134,7 @@ namespace POTETOS
         {
             try
             {
+                LiberarTodasLasMesas(); // <-- Añadido aquí
                 SesionUsuario.Instance.CerrarSesion();
                 var loginForm = new frm_login();
                 loginForm.Show();
@@ -163,25 +166,34 @@ namespace POTETOS
 
             switch (mesa.Estado)
             {
+                case "Atendida":
+                    
+                    if (MessageBox.Show($"¿Desea liberar la mesa {mesa.NumeroMesa}?",
+                        "Liberar Mesa", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+                    {
+                        mesa.Estado = "Libre";
+                        _mesaController.ActualizarMesa(mesa); // Actualizar estado en la base de datos
+                        FinalizarPedido(mesa);
+                    }
+                    break;
+
                 case "Libre":
                     if (MessageBox.Show($"¿Desea ocupar la mesa {mesa.NumeroMesa}?",
                         "Ocupar Mesa", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
                     {
                         mesa.Estado = "Ocupada";
                         CrearNuevoPedido(mesa);
+                        _mesaController.ActualizarMesa(mesa); // Actualizar estado en la base de datos
                     }
-                    break;
-
-                case "Ocupada":
                     MostrarDetallePedido(mesa);
                     break;
 
-                case "Atendida":
-                    if (MessageBox.Show($"¿Desea liberar la mesa {mesa.NumeroMesa}?",
-                        "Liberar Mesa", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+                case "Ocupada":
+                    if (MessageBox.Show($"¿Desea marcar la mesa {mesa.NumeroMesa} como atendida?",
+                        "Atender Mesa", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
                     {
-                        mesa.Estado = "Libre";
-                        FinalizarPedido(mesa);
+                        mesa.Estado = "Atendida";
+                        _mesaController.ActualizarMesa(mesa); // Actualizar estado en la base de datos
                     }
                     break;
             }
@@ -279,12 +291,35 @@ namespace POTETOS
             if (e.CloseReason == CloseReason.UserClosing)
             {
                 SesionUsuario.Instance.CerrarSesion();
+               
             }
         }
 
         private void lbl_user_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+
+        }
+        private void LiberarTodasLasMesas()
+        {
+            foreach (var kvp in _mesas)
+            {
+                var mesa = kvp.Value;
+                if (mesa.Estado != "Libre")
+                {
+                    mesa.Estado = "Libre";
+                    // Actualiza el estado en la base de datos usando el método correcto
+                    _mesaController.ActualizarMesa(mesa);
+                    // También actualiza el estado en la base de datos directamente si es necesario
+                    
+                    FinalizarPedido(mesa);
+                }
+            }
+            ActualizarVisualizacionMesas();
         }
     }
 }

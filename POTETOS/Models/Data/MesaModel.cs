@@ -12,7 +12,7 @@ namespace POTETOS.Models.Data
 
         public MesaModel(DatabaseConnection db = null)
         {
-            _db = db ?? DatabaseConnection.Instance; // Cambiado para usar la instancia singleton
+            _db = DatabaseConnection.Instance; // Cambiado para usar la instancia singleton
         }
 
         public List<Mesa> ObtenerTodas()
@@ -54,18 +54,22 @@ namespace POTETOS.Models.Data
         {
             try
             {
-                using (var conn = _db.GetConnection())
+                using (SqlConnection conn = _db.GetConnection())
                 {
                     using (var cmd = new SqlCommand("SP_ActualizarEstadoMesa", conn))
                     {
                         cmd.CommandType = CommandType.StoredProcedure;
                         cmd.Parameters.AddWithValue("@IdMesa", idMesa);
-                        cmd.Parameters.AddWithValue("@Estado", estado);
+                        cmd.Parameters.AddWithValue("@NuevoEstado", estado);
 
                         conn.Open();
                         return cmd.ExecuteNonQuery() > 0;
                     }
                 }
+            }
+            catch (SqlException sqlEx)
+            {
+                throw new Exception("Error al actualizar estado de mesa: " + sqlEx.Message);
             }
             catch (Exception ex)
             {
