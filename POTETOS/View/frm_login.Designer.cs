@@ -42,6 +42,7 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.lbl_messageone = new System.Windows.Forms.Label();
             this.lbl_messagetwo = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -191,12 +192,23 @@
             this.lbl_messagetwo.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.lbl_messagetwo.Click += new System.EventHandler(this.lbl_messagetwo_Click);
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(258, 4);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(39, 15);
+            this.label2.TabIndex = 13;
+            this.label2.Text = "Original";
+            this.label2.Click += new System.EventHandler(this.label2_Click_1);
+            // 
             // frm_login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(5F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(6)))), ((int)(((byte)(1)))), ((int)(((byte)(51)))));
             this.ClientSize = new System.Drawing.Size(304, 418);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.lbl_messagetwo);
             this.Controls.Add(this.lbl_messageone);
             this.Controls.Add(this.tb_password);
@@ -242,6 +254,7 @@
         private System.Windows.Forms.TextBox tb_password;
         private System.Windows.Forms.Label lbl_messageone;
         private System.Windows.Forms.Label lbl_messagetwo;
+        private System.Windows.Forms.Label label2;
     }
 }
 
