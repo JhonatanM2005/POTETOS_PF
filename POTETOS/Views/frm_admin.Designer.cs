@@ -62,7 +62,7 @@
             this.dgv_users.BorderStyle = System.Windows.Forms.BorderStyle.None;
             dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
             dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Cheese Burger", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
             dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
@@ -72,6 +72,7 @@
             this.dgv_users.Location = new System.Drawing.Point(49, 280);
             this.dgv_users.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.dgv_users.Name = "dgv_users";
+            this.dgv_users.ReadOnly = true;
             this.dgv_users.Size = new System.Drawing.Size(547, 208);
             this.dgv_users.TabIndex = 0;
             // 
@@ -80,7 +81,7 @@
             this.tb_ident.Location = new System.Drawing.Point(48, 138);
             this.tb_ident.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.tb_ident.Name = "tb_ident";
-            this.tb_ident.Size = new System.Drawing.Size(118, 23);
+            this.tb_ident.Size = new System.Drawing.Size(118, 22);
             this.tb_ident.TabIndex = 1;
             // 
             // tb_fullname
@@ -88,7 +89,7 @@
             this.tb_fullname.Location = new System.Drawing.Point(202, 138);
             this.tb_fullname.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.tb_fullname.Name = "tb_fullname";
-            this.tb_fullname.Size = new System.Drawing.Size(252, 23);
+            this.tb_fullname.Size = new System.Drawing.Size(252, 22);
             this.tb_fullname.TabIndex = 2;
             // 
             // cb_userType
@@ -104,7 +105,7 @@
             this.cb_userType.Location = new System.Drawing.Point(261, 200);
             this.cb_userType.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.cb_userType.Name = "cb_userType";
-            this.cb_userType.Size = new System.Drawing.Size(121, 26);
+            this.cb_userType.Size = new System.Drawing.Size(121, 24);
             this.cb_userType.TabIndex = 3;
             // 
             // tb_phone
@@ -112,7 +113,7 @@
             this.tb_phone.Location = new System.Drawing.Point(483, 138);
             this.tb_phone.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.tb_phone.Name = "tb_phone";
-            this.tb_phone.Size = new System.Drawing.Size(108, 23);
+            this.tb_phone.Size = new System.Drawing.Size(108, 22);
             this.tb_phone.TabIndex = 4;
             // 
             // tb_username
@@ -120,7 +121,7 @@
             this.tb_username.Location = new System.Drawing.Point(114, 200);
             this.tb_username.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.tb_username.Name = "tb_username";
-            this.tb_username.Size = new System.Drawing.Size(100, 23);
+            this.tb_username.Size = new System.Drawing.Size(100, 22);
             this.tb_username.TabIndex = 5;
             // 
             // tb_password
@@ -128,72 +129,72 @@
             this.tb_password.Location = new System.Drawing.Point(423, 203);
             this.tb_password.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.tb_password.Name = "tb_password";
-            this.tb_password.Size = new System.Drawing.Size(100, 23);
+            this.tb_password.Size = new System.Drawing.Size(100, 22);
             this.tb_password.TabIndex = 6;
             // 
             // lbl_ident
             // 
             this.lbl_ident.AutoSize = true;
-            this.lbl_ident.Font = new System.Drawing.Font("Cheese Burger", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_ident.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_ident.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(136)))), ((int)(((byte)(37)))));
             this.lbl_ident.Location = new System.Drawing.Point(45, 116);
             this.lbl_ident.Name = "lbl_ident";
-            this.lbl_ident.Size = new System.Drawing.Size(78, 18);
+            this.lbl_ident.Size = new System.Drawing.Size(88, 16);
             this.lbl_ident.TabIndex = 7;
             this.lbl_ident.Text = "Identificación:";
             // 
             // lbl_fullname
             // 
             this.lbl_fullname.AutoSize = true;
-            this.lbl_fullname.Font = new System.Drawing.Font("Cheese Burger", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_fullname.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_fullname.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(136)))), ((int)(((byte)(37)))));
             this.lbl_fullname.Location = new System.Drawing.Point(199, 116);
             this.lbl_fullname.Name = "lbl_fullname";
-            this.lbl_fullname.Size = new System.Drawing.Size(98, 18);
+            this.lbl_fullname.Size = new System.Drawing.Size(118, 16);
             this.lbl_fullname.TabIndex = 8;
             this.lbl_fullname.Text = "Nombre completo:";
             // 
             // lbl_phone
             // 
             this.lbl_phone.AutoSize = true;
-            this.lbl_phone.Font = new System.Drawing.Font("Cheese Burger", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_phone.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_phone.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(136)))), ((int)(((byte)(37)))));
             this.lbl_phone.Location = new System.Drawing.Point(480, 116);
             this.lbl_phone.Name = "lbl_phone";
-            this.lbl_phone.Size = new System.Drawing.Size(52, 18);
+            this.lbl_phone.Size = new System.Drawing.Size(64, 16);
             this.lbl_phone.TabIndex = 9;
             this.lbl_phone.Text = "Teléfono:";
             // 
             // lbl_user
             // 
             this.lbl_user.AutoSize = true;
-            this.lbl_user.Font = new System.Drawing.Font("Cheese Burger", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_user.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_user.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(136)))), ((int)(((byte)(37)))));
             this.lbl_user.Location = new System.Drawing.Point(111, 178);
             this.lbl_user.Name = "lbl_user";
-            this.lbl_user.Size = new System.Drawing.Size(50, 18);
+            this.lbl_user.Size = new System.Drawing.Size(57, 16);
             this.lbl_user.TabIndex = 10;
             this.lbl_user.Text = "Usuario:";
             // 
             // lbl_userType
             // 
             this.lbl_userType.AutoSize = true;
-            this.lbl_userType.Font = new System.Drawing.Font("Cheese Burger", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_userType.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_userType.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(136)))), ((int)(((byte)(37)))));
             this.lbl_userType.Location = new System.Drawing.Point(258, 181);
             this.lbl_userType.Name = "lbl_userType";
-            this.lbl_userType.Size = new System.Drawing.Size(89, 18);
+            this.lbl_userType.Size = new System.Drawing.Size(104, 16);
             this.lbl_userType.TabIndex = 11;
             this.lbl_userType.Text = "Tipo de usuario:";
             // 
             // lbl_password
             // 
             this.lbl_password.AutoSize = true;
-            this.lbl_password.Font = new System.Drawing.Font("Cheese Burger", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_password.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_password.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(136)))), ((int)(((byte)(37)))));
             this.lbl_password.Location = new System.Drawing.Point(420, 181);
             this.lbl_password.Name = "lbl_password";
-            this.lbl_password.Size = new System.Drawing.Size(66, 18);
+            this.lbl_password.Size = new System.Drawing.Size(79, 16);
             this.lbl_password.TabIndex = 12;
             this.lbl_password.Text = "Contraseña:";
             // 
@@ -201,7 +202,7 @@
             // 
             this.b_save.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(186)))), ((int)(((byte)(82)))));
             this.b_save.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.b_save.Font = new System.Drawing.Font("Cheese Burger", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.b_save.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.b_save.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(6)))), ((int)(((byte)(1)))), ((int)(((byte)(51)))));
             this.b_save.Location = new System.Drawing.Point(149, 511);
             this.b_save.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
@@ -216,7 +217,7 @@
             // 
             this.b_delete.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(186)))), ((int)(((byte)(82)))));
             this.b_delete.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.b_delete.Font = new System.Drawing.Font("Cheese Burger", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.b_delete.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.b_delete.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(6)))), ((int)(((byte)(1)))), ((int)(((byte)(51)))));
             this.b_delete.Location = new System.Drawing.Point(415, 511);
             this.b_delete.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
@@ -231,7 +232,7 @@
             // 
             this.b_search.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(186)))), ((int)(((byte)(82)))));
             this.b_search.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.b_search.Font = new System.Drawing.Font("Cheese Burger", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.b_search.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.b_search.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(6)))), ((int)(((byte)(1)))), ((int)(((byte)(51)))));
             this.b_search.Location = new System.Drawing.Point(282, 511);
             this.b_search.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
@@ -246,22 +247,22 @@
             // 
             this.lbl_title.AutoSize = true;
             this.lbl_title.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.lbl_title.Font = new System.Drawing.Font("Rockies", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_title.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_title.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(186)))), ((int)(((byte)(82)))));
             this.lbl_title.Location = new System.Drawing.Point(178, 9);
             this.lbl_title.Name = "lbl_title";
-            this.lbl_title.Size = new System.Drawing.Size(296, 41);
+            this.lbl_title.Size = new System.Drawing.Size(388, 37);
             this.lbl_title.TabIndex = 16;
             this.lbl_title.Text = "GESTIÓN DE USUARIOS";
             // 
             // lbl_welcome
             // 
             this.lbl_welcome.AutoSize = true;
-            this.lbl_welcome.Font = new System.Drawing.Font("Cheese Burger", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_welcome.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_welcome.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(136)))), ((int)(((byte)(37)))));
             this.lbl_welcome.Location = new System.Drawing.Point(57, 49);
             this.lbl_welcome.Name = "lbl_welcome";
-            this.lbl_welcome.Size = new System.Drawing.Size(66, 30);
+            this.lbl_welcome.Size = new System.Drawing.Size(70, 26);
             this.lbl_welcome.TabIndex = 17;
             this.lbl_welcome.Text = "Bienvenido\r\nAdministrador";
             // 
@@ -278,11 +279,11 @@
             // lbl_exit
             // 
             this.lbl_exit.AutoSize = true;
-            this.lbl_exit.Font = new System.Drawing.Font("Cheese Burger", 9.75F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_exit.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_exit.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(136)))), ((int)(((byte)(37)))));
             this.lbl_exit.Location = new System.Drawing.Point(536, 54);
             this.lbl_exit.Name = "lbl_exit";
-            this.lbl_exit.Size = new System.Drawing.Size(75, 18);
+            this.lbl_exit.Size = new System.Drawing.Size(89, 16);
             this.lbl_exit.TabIndex = 19;
             this.lbl_exit.Text = "Cerrar Sesión";
             this.lbl_exit.Click += new System.EventHandler(this.lbl_exit_Click);
@@ -290,11 +291,11 @@
             // lbl_message
             // 
             this.lbl_message.AutoSize = true;
-            this.lbl_message.Font = new System.Drawing.Font("Cheese Burger", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_message.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_message.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(186)))), ((int)(((byte)(82)))));
             this.lbl_message.Location = new System.Drawing.Point(148, 244);
             this.lbl_message.Name = "lbl_message";
-            this.lbl_message.Size = new System.Drawing.Size(0, 22);
+            this.lbl_message.Size = new System.Drawing.Size(0, 20);
             this.lbl_message.TabIndex = 20;
             // 
             // bunifuElipse1
@@ -304,7 +305,7 @@
             // 
             // frm_admin
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 18F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(6)))), ((int)(((byte)(1)))), ((int)(((byte)(51)))));
             this.ClientSize = new System.Drawing.Size(641, 561);
@@ -329,7 +330,7 @@
             this.Controls.Add(this.tb_fullname);
             this.Controls.Add(this.tb_ident);
             this.Controls.Add(this.dgv_users);
-            this.Font = new System.Drawing.Font("Cheese Burger", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(136)))), ((int)(((byte)(37)))));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
