@@ -55,36 +55,48 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="View\frm_index.cs">
+    <Compile Include="Controllers\MesaController.cs" />
+    <Compile Include="Controllers\PedidoController.cs" />
+    <Compile Include="Controllers\UsuarioController.cs" />
+    <Compile Include="Models\Data\DatabaseConnection.cs" />
+    <Compile Include="Models\Data\MesaModel.cs" />
+    <Compile Include="Models\Data\PedidoModel.cs" />
+    <Compile Include="Models\Data\UsuarioModel.cs" />
+    <Compile Include="Models\Entities\DetallePedido.cs" />
+    <Compile Include="Models\Entities\Mesa.cs" />
+    <Compile Include="Models\Entities\Pedido.cs" />
+    <Compile Include="Models\Entities\Producto.cs" />
+    <Compile Include="Utils\SesionUsuario.cs" />
+    <Compile Include="Views\frm_index.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="View\frm_index.Designer.cs">
+    <Compile Include="Views\frm_index.Designer.cs">
       <DependentUpon>frm_index.cs</DependentUpon>
     </Compile>
-    <Compile Include="View\frm_login.cs">
+    <Compile Include="Views\frm_login.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="View\frm_login.Designer.cs">
+    <Compile Include="Views\frm_login.Designer.cs">
       <DependentUpon>frm_login.cs</DependentUpon>
     </Compile>
-    <Compile Include="View\frm_splash.cs">
+    <Compile Include="Views\frm_splash.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="View\frm_splash.Designer.cs">
+    <Compile Include="Views\frm_splash.Designer.cs">
       <DependentUpon>frm_splash.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="View\frm_index.resx">
+    <EmbeddedResource Include="Views\frm_index.resx">
       <DependentUpon>frm_index.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="View\frm_login.resx">
+    <EmbeddedResource Include="Views\frm_login.resx">
       <DependentUpon>frm_login.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="View\frm_admin.resx">
+    <EmbeddedResource Include="Views\frm_admin.resx">
       <DependentUpon>frm_admin.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="View\frm_splash.resx">
+    <EmbeddedResource Include="Views\frm_splash.resx">
       <DependentUpon>frm_splash.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -92,13 +104,13 @@
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <Compile Include="View\frm_admin.cs">
+    <Compile Include="Views\frm_admin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="View\frm_admin.Designer.cs">
+    <Compile Include="Views\frm_admin.Designer.cs">
       <DependentUpon>frm_admin.cs</DependentUpon>
     </Compile>
-    <Compile Include="Model\cls_users.cs" />
+    <Compile Include="Models\Entities\Usuario.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
@@ -160,8 +172,6 @@
     <None Include="Resources\hogar.png" />
     <None Include="Resources\entrega-rapida.png" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Controller\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

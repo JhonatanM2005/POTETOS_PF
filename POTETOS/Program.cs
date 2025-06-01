@@ -9,7 +9,6 @@ namespace POTETOS
 {
     internal static class Program
     {
-        private static List<cls_users> listUsers = new List<cls_users>();
 
         /// <summary>
         /// Punto de entrada principal para la aplicación.
@@ -30,7 +29,7 @@ namespace POTETOS
             splash.Close();
 
 
-            frm_login main = new frm_login(listUsers);
+            frm_login main = new frm_login();
             main.FormClosed += LoginClosed; 
             main.Show();
             Application.Run();
