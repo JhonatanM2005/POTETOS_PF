@@ -61,7 +61,6 @@ namespace POTETOS.Models.Data
                         cmd.CommandType = CommandType.StoredProcedure;
                         cmd.Parameters.AddWithValue("@IdMesa", idMesa);
                         cmd.Parameters.AddWithValue("@Estado", estado);
-                        cmd.Parameters.AddWithValue("@UltimaActualizacion", DateTime.Now);
 
                         conn.Open();
                         return cmd.ExecuteNonQuery() > 0;

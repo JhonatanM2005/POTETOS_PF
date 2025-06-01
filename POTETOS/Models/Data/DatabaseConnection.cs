@@ -15,7 +15,7 @@ namespace POTETOS.Models.Data
 
         private DatabaseConnection()
         {
-            _connectionString = @"Data Source=(localdb)\JhonatanM;Initial Catalog=POTETOS;Integrated Security=True";
+            _connectionString = @"Data Source=(localdb)\servidorPrueba;Initial Catalog=POTETOS;Integrated Security=True";
         }
 
         public static DatabaseConnection Instance
