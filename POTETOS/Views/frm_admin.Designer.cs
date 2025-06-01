@@ -106,7 +106,6 @@
             this.cb_userType.Name = "cb_userType";
             this.cb_userType.Size = new System.Drawing.Size(121, 26);
             this.cb_userType.TabIndex = 3;
-            this.cb_userType.SelectedIndexChanged += new System.EventHandler(this.cb_userType_SelectedIndexChanged);
             // 
             // tb_phone
             // 
@@ -142,7 +141,6 @@
             this.lbl_ident.Size = new System.Drawing.Size(78, 18);
             this.lbl_ident.TabIndex = 7;
             this.lbl_ident.Text = "Identificación:";
-            this.lbl_ident.Click += new System.EventHandler(this.lbl_ident_Click);
             // 
             // lbl_fullname
             // 
@@ -154,7 +152,6 @@
             this.lbl_fullname.Size = new System.Drawing.Size(98, 18);
             this.lbl_fullname.TabIndex = 8;
             this.lbl_fullname.Text = "Nombre completo:";
-            this.lbl_fullname.Click += new System.EventHandler(this.label1_Click);
             // 
             // lbl_phone
             // 
@@ -166,7 +163,6 @@
             this.lbl_phone.Size = new System.Drawing.Size(52, 18);
             this.lbl_phone.TabIndex = 9;
             this.lbl_phone.Text = "Teléfono:";
-            this.lbl_phone.Click += new System.EventHandler(this.lbl_phone_Click);
             // 
             // lbl_user
             // 
@@ -178,7 +174,6 @@
             this.lbl_user.Size = new System.Drawing.Size(50, 18);
             this.lbl_user.TabIndex = 10;
             this.lbl_user.Text = "Usuario:";
-            this.lbl_user.Click += new System.EventHandler(this.lbl_user_Click);
             // 
             // lbl_userType
             // 
@@ -190,7 +185,6 @@
             this.lbl_userType.Size = new System.Drawing.Size(89, 18);
             this.lbl_userType.TabIndex = 11;
             this.lbl_userType.Text = "Tipo de usuario:";
-            this.lbl_userType.Click += new System.EventHandler(this.lbl_userType_Click);
             // 
             // lbl_password
             // 
@@ -202,7 +196,6 @@
             this.lbl_password.Size = new System.Drawing.Size(66, 18);
             this.lbl_password.TabIndex = 12;
             this.lbl_password.Text = "Contraseña:";
-            this.lbl_password.Click += new System.EventHandler(this.lbl_password_Click);
             // 
             // b_save
             // 
@@ -260,7 +253,6 @@
             this.lbl_title.Size = new System.Drawing.Size(296, 41);
             this.lbl_title.TabIndex = 16;
             this.lbl_title.Text = "GESTIÓN DE USUARIOS";
-            this.lbl_title.Click += new System.EventHandler(this.lbl_loading_Click);
             // 
             // lbl_welcome
             // 
@@ -272,7 +264,6 @@
             this.lbl_welcome.Size = new System.Drawing.Size(66, 30);
             this.lbl_welcome.TabIndex = 17;
             this.lbl_welcome.Text = "Bienvenido\r\nAdministrador";
-            this.lbl_welcome.Click += new System.EventHandler(this.label1_Click_1);
             // 
             // pb_profile
             // 
@@ -305,7 +296,6 @@
             this.lbl_message.Name = "lbl_message";
             this.lbl_message.Size = new System.Drawing.Size(0, 22);
             this.lbl_message.TabIndex = 20;
-            this.lbl_message.Click += new System.EventHandler(this.lbl_message_Click);
             // 
             // bunifuElipse1
             // 

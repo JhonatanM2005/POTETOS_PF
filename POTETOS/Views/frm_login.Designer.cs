@@ -11,14 +11,6 @@
         /// Limpiar los recursos que se estén usando.
         /// </summary>
         /// <param name="disposing">true si los recursos administrados se deben desechar; false en caso contrario.</param>
-        protected override void Dispose(bool disposing)
-        {
-            if (disposing && (components != null))
-            {
-                components.Dispose();
-            }
-            base.Dispose(disposing);
-        }
 
         #region Código generado por el Diseñador de Windows Forms
 
@@ -73,7 +65,6 @@
             this.label1.Size = new System.Drawing.Size(137, 34);
             this.label1.TabIndex = 5;
             this.label1.Text = "¡BIENVENIDO!";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // b_login
             // 
@@ -189,7 +180,6 @@
             this.lbl_messagetwo.Size = new System.Drawing.Size(0, 15);
             this.lbl_messagetwo.TabIndex = 12;
             this.lbl_messagetwo.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.lbl_messagetwo.Click += new System.EventHandler(this.lbl_messagetwo_Click);
             // 
             // frm_login
             // 
@@ -218,7 +208,6 @@
             this.Name = "frm_login";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frm_login";
-            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
