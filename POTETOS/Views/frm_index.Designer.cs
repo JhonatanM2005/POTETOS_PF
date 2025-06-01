@@ -150,7 +150,7 @@
             // 
             this.b_exit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(186)))), ((int)(((byte)(82)))));
             this.b_exit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.b_exit.Font = new System.Drawing.Font("Cheese Burger", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.b_exit.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.b_exit.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(6)))), ((int)(((byte)(1)))), ((int)(((byte)(51)))));
             this.b_exit.Location = new System.Drawing.Point(60, 423);
             this.b_exit.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
@@ -183,7 +183,7 @@
             // 
             this.b_menu.FlatAppearance.BorderSize = 0;
             this.b_menu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.b_menu.Font = new System.Drawing.Font("Cheese Burger", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.b_menu.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.b_menu.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.b_menu.Image = global::POTETOS.Properties.Resources.papas_fritas;
             this.b_menu.Location = new System.Drawing.Point(0, 180);
@@ -199,7 +199,7 @@
             // 
             this.b_about.FlatAppearance.BorderSize = 0;
             this.b_about.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.b_about.Font = new System.Drawing.Font("Cheese Burger", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.b_about.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.b_about.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.b_about.Image = global::POTETOS.Properties.Resources.equipo;
             this.b_about.Location = new System.Drawing.Point(0, 273);
@@ -215,7 +215,7 @@
             // 
             this.b_tables.FlatAppearance.BorderSize = 0;
             this.b_tables.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.b_tables.Font = new System.Drawing.Font("Cheese Burger", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.b_tables.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.b_tables.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.b_tables.Image = global::POTETOS.Properties.Resources.mesa_de_comedor;
             this.b_tables.Location = new System.Drawing.Point(0, 227);
@@ -231,7 +231,7 @@
             // 
             this.b_home.FlatAppearance.BorderSize = 0;
             this.b_home.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.b_home.Font = new System.Drawing.Font("Cheese Burger", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.b_home.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.b_home.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.b_home.Image = global::POTETOS.Properties.Resources.hogar;
             this.b_home.Location = new System.Drawing.Point(0, 133);
@@ -280,11 +280,11 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Rockies", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(186)))), ((int)(((byte)(82)))));
             this.label1.Location = new System.Drawing.Point(178, -1);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(331, 83);
+            this.label1.Size = new System.Drawing.Size(428, 73);
             this.label1.TabIndex = 0;
             this.label1.Text = "BIENVENIDO";
             // 
@@ -300,7 +300,7 @@
             // 
             // lbl_user
             // 
-            this.lbl_user.Font = new System.Drawing.Font("Rockies", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_user.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_user.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(186)))), ((int)(((byte)(82)))));
             this.lbl_user.Location = new System.Drawing.Point(0, 65);
             this.lbl_user.Name = "lbl_user";
@@ -341,55 +341,55 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Rockies", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(136)))), ((int)(((byte)(37)))));
             this.label8.Location = new System.Drawing.Point(175, 180);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(128, 19);
+            this.label8.Size = new System.Drawing.Size(123, 18);
             this.label8.TabIndex = 12;
             this.label8.Text = "waffle con helado";
             // 
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Cheese Burger", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label9.Location = new System.Drawing.Point(216, 196);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(44, 18);
+            this.label9.Size = new System.Drawing.Size(48, 16);
             this.label9.TabIndex = 13;
             this.label9.Text = "$ 8.000";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Rockies", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(136)))), ((int)(((byte)(37)))));
             this.label6.Location = new System.Drawing.Point(33, 180);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(93, 19);
+            this.label6.Size = new System.Drawing.Size(86, 18);
             this.label6.TabIndex = 10;
             this.label6.Text = "banana split";
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Cheese Burger", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label7.Location = new System.Drawing.Point(55, 196);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(48, 18);
+            this.label7.Size = new System.Drawing.Size(55, 16);
             this.label7.TabIndex = 11;
             this.label7.Text = "$ 12.000";
             // 
             // lbl_desserts
             // 
             this.lbl_desserts.AutoSize = true;
-            this.lbl_desserts.Font = new System.Drawing.Font("Rockies", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_desserts.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_desserts.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(136)))), ((int)(((byte)(37)))));
             this.lbl_desserts.Location = new System.Drawing.Point(102, 3);
             this.lbl_desserts.Name = "lbl_desserts";
-            this.lbl_desserts.Size = new System.Drawing.Size(115, 37);
+            this.lbl_desserts.Size = new System.Drawing.Size(153, 33);
             this.lbl_desserts.TabIndex = 6;
             this.lbl_desserts.Text = "POSTRES";
             // 
@@ -446,55 +446,55 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Rockies", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(136)))), ((int)(((byte)(37)))));
             this.label3.Location = new System.Drawing.Point(197, 180);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(113, 19);
+            this.label3.Size = new System.Drawing.Size(109, 18);
             this.label3.TabIndex = 7;
             this.label3.Text = "jugo mandarina";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Cheese Burger", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label5.Location = new System.Drawing.Point(229, 196);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(45, 18);
+            this.label5.Size = new System.Drawing.Size(48, 16);
             this.label5.TabIndex = 9;
             this.label5.Text = "$ 6.000";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Cheese Burger", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label4.Location = new System.Drawing.Point(62, 196);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(44, 18);
+            this.label4.Size = new System.Drawing.Size(48, 16);
             this.label4.TabIndex = 8;
             this.label4.Text = "$ 5.000";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Rockies", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(136)))), ((int)(((byte)(37)))));
             this.label2.Location = new System.Drawing.Point(48, 180);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(75, 19);
+            this.label2.Size = new System.Drawing.Size(74, 18);
             this.label2.TabIndex = 6;
             this.label2.Text = "coca-cola";
             // 
             // lbl_drinks
             // 
             this.lbl_drinks.AutoSize = true;
-            this.lbl_drinks.Font = new System.Drawing.Font("Rockies", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_drinks.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_drinks.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(136)))), ((int)(((byte)(37)))));
             this.lbl_drinks.Location = new System.Drawing.Point(118, 3);
             this.lbl_drinks.Name = "lbl_drinks";
-            this.lbl_drinks.Size = new System.Drawing.Size(113, 37);
+            this.lbl_drinks.Size = new System.Drawing.Size(139, 33);
             this.lbl_drinks.TabIndex = 5;
             this.lbl_drinks.Text = "BEBIDAS";
             // 
@@ -557,99 +557,99 @@
             // label16
             // 
             this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("Rockies", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label16.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(136)))), ((int)(((byte)(37)))));
             this.label16.Location = new System.Drawing.Point(537, 180);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(75, 19);
+            this.label16.Size = new System.Drawing.Size(75, 18);
             this.label16.TabIndex = 16;
             this.label16.Text = "de la casa";
             // 
             // label17
             // 
             this.label17.AutoSize = true;
-            this.label17.Font = new System.Drawing.Font("Cheese Burger", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label17.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label17.Location = new System.Drawing.Point(548, 196);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(50, 18);
+            this.label17.Size = new System.Drawing.Size(55, 16);
             this.label17.TabIndex = 17;
             this.label17.Text = "$ 23.000";
             // 
             // label14
             // 
             this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("Rockies", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(136)))), ((int)(((byte)(37)))));
             this.label14.Location = new System.Drawing.Point(381, 180);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(68, 19);
+            this.label14.Size = new System.Drawing.Size(61, 18);
             this.label14.TabIndex = 14;
             this.label14.Text = "italianas";
             // 
             // label15
             // 
             this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Cheese Burger", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label15.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label15.Location = new System.Drawing.Point(387, 196);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(50, 18);
+            this.label15.Size = new System.Drawing.Size(55, 16);
             this.label15.TabIndex = 15;
             this.label15.Text = "$ 25.000";
             // 
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Rockies", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(136)))), ((int)(((byte)(37)))));
             this.label12.Location = new System.Drawing.Point(216, 180);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(76, 19);
+            this.label12.Size = new System.Drawing.Size(79, 18);
             this.label12.TabIndex = 12;
             this.label12.Text = "mexicanas";
             // 
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Cheese Burger", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label13.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label13.Location = new System.Drawing.Point(227, 196);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(50, 18);
+            this.label13.Size = new System.Drawing.Size(55, 16);
             this.label13.TabIndex = 13;
             this.label13.Text = "$ 23.000";
             // 
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Rockies", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(136)))), ((int)(((byte)(37)))));
             this.label10.Location = new System.Drawing.Point(70, 180);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(40, 19);
+            this.label10.Size = new System.Drawing.Size(42, 18);
             this.label10.TabIndex = 10;
             this.label10.Text = "cono";
             // 
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Cheese Burger", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label11.Location = new System.Drawing.Point(67, 196);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(44, 18);
+            this.label11.Size = new System.Drawing.Size(48, 16);
             this.label11.TabIndex = 11;
             this.label11.Text = "$ 8.000";
             // 
             // lbl_fries
             // 
             this.lbl_fries.AutoSize = true;
-            this.lbl_fries.Font = new System.Drawing.Font("Rockies", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_fries.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_fries.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(136)))), ((int)(((byte)(37)))));
             this.lbl_fries.Location = new System.Drawing.Point(285, 3);
             this.lbl_fries.Name = "lbl_fries";
-            this.lbl_fries.Size = new System.Drawing.Size(92, 37);
+            this.lbl_fries.Size = new System.Drawing.Size(110, 33);
             this.lbl_fries.TabIndex = 4;
             this.lbl_fries.Text = "PAPAS";
             // 
@@ -752,20 +752,20 @@
             // label18
             // 
             this.label18.AutoSize = true;
-            this.label18.Font = new System.Drawing.Font("Cheese Burger", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label18.Location = new System.Drawing.Point(43, 55);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(76, 27);
+            this.label18.Size = new System.Drawing.Size(88, 24);
             this.label18.TabIndex = 3;
             this.label18.Text = "Ocupada";
             // 
             // lbl_free
             // 
             this.lbl_free.AutoSize = true;
-            this.lbl_free.Font = new System.Drawing.Font("Cheese Burger", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_free.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_free.Location = new System.Drawing.Point(41, 16);
             this.lbl_free.Name = "lbl_free";
-            this.lbl_free.Size = new System.Drawing.Size(87, 27);
+            this.lbl_free.Size = new System.Drawing.Size(99, 24);
             this.lbl_free.TabIndex = 2;
             this.lbl_free.Text = "Disponible";
             // 
@@ -790,7 +790,7 @@
             this.b_table4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(6)))), ((int)(((byte)(1)))), ((int)(((byte)(51)))));
             this.b_table4.FlatAppearance.BorderColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.b_table4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.b_table4.Font = new System.Drawing.Font("Cheese Burger", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.b_table4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.b_table4.ForeColor = System.Drawing.Color.White;
             this.b_table4.Image = global::POTETOS.Properties.Resources.mesa_de_comedor__3_;
             this.b_table4.Location = new System.Drawing.Point(261, 280);
@@ -807,7 +807,7 @@
             this.b_table3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(6)))), ((int)(((byte)(1)))), ((int)(((byte)(51)))));
             this.b_table3.FlatAppearance.BorderColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.b_table3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.b_table3.Font = new System.Drawing.Font("Cheese Burger", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.b_table3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.b_table3.ForeColor = System.Drawing.Color.White;
             this.b_table3.Image = global::POTETOS.Properties.Resources.mesa_de_comedor__3_;
             this.b_table3.Location = new System.Drawing.Point(59, 280);
@@ -824,7 +824,7 @@
             this.b_table2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(6)))), ((int)(((byte)(1)))), ((int)(((byte)(51)))));
             this.b_table2.FlatAppearance.BorderColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.b_table2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.b_table2.Font = new System.Drawing.Font("Cheese Burger", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.b_table2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.b_table2.ForeColor = System.Drawing.Color.White;
             this.b_table2.Image = global::POTETOS.Properties.Resources.mesa_de_comedor__3_;
             this.b_table2.Location = new System.Drawing.Point(261, 103);
@@ -841,7 +841,7 @@
             this.b_table1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(6)))), ((int)(((byte)(1)))), ((int)(((byte)(51)))));
             this.b_table1.FlatAppearance.BorderColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.b_table1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.b_table1.Font = new System.Drawing.Font("Cheese Burger", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.b_table1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.b_table1.ForeColor = System.Drawing.Color.White;
             this.b_table1.Image = global::POTETOS.Properties.Resources.mesa_de_comedor__3_;
             this.b_table1.Location = new System.Drawing.Point(59, 103);
@@ -856,11 +856,11 @@
             // lbl_tables
             // 
             this.lbl_tables.AutoSize = true;
-            this.lbl_tables.Font = new System.Drawing.Font("Rockies", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_tables.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_tables.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(136)))), ((int)(((byte)(37)))));
             this.lbl_tables.Location = new System.Drawing.Point(225, 17);
             this.lbl_tables.Name = "lbl_tables";
-            this.lbl_tables.Size = new System.Drawing.Size(199, 83);
+            this.lbl_tables.Size = new System.Drawing.Size(257, 73);
             this.lbl_tables.TabIndex = 1;
             this.lbl_tables.Text = "MESAS";
             // 
@@ -877,7 +877,7 @@
             // 
             // label20
             // 
-            this.label20.Font = new System.Drawing.Font("Cheese Burger", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label20.ForeColor = System.Drawing.Color.White;
             this.label20.Location = new System.Drawing.Point(31, 272);
             this.label20.Name = "label20";
@@ -889,11 +889,11 @@
             // label19
             // 
             this.label19.AutoSize = true;
-            this.label19.Font = new System.Drawing.Font("Rockies", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label19.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(186)))), ((int)(((byte)(82)))));
             this.label19.Location = new System.Drawing.Point(194, 21);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(288, 83);
+            this.label19.Size = new System.Drawing.Size(289, 73);
             this.label19.TabIndex = 1;
             this.label19.Text = "Nosotros";
             // 

@@ -53,6 +53,7 @@
             this.lbl_exit = new System.Windows.Forms.Label();
             this.lbl_message = new System.Windows.Forms.Label();
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
+            this.b_edit = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_users)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_profile)).BeginInit();
             this.SuspendLayout();
@@ -75,6 +76,7 @@
             this.dgv_users.ReadOnly = true;
             this.dgv_users.Size = new System.Drawing.Size(547, 208);
             this.dgv_users.TabIndex = 0;
+            this.dgv_users.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_users_CellContentClick);
             // 
             // tb_ident
             // 
@@ -99,14 +101,13 @@
             this.cb_userType.Items.AddRange(new object[] {
             "Administrador",
             "Chef",
-            "Mesero",
-            "Cajero",
-            "Repartidor"});
+            "Mesero"});
             this.cb_userType.Location = new System.Drawing.Point(261, 200);
             this.cb_userType.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.cb_userType.Name = "cb_userType";
             this.cb_userType.Size = new System.Drawing.Size(121, 24);
             this.cb_userType.TabIndex = 3;
+            this.cb_userType.SelectedIndexChanged += new System.EventHandler(this.cb_userType_SelectedIndexChanged);
             // 
             // tb_phone
             // 
@@ -204,7 +205,7 @@
             this.b_save.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.b_save.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.b_save.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(6)))), ((int)(((byte)(1)))), ((int)(((byte)(51)))));
-            this.b_save.Location = new System.Drawing.Point(149, 511);
+            this.b_save.Location = new System.Drawing.Point(114, 511);
             this.b_save.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.b_save.Name = "b_save";
             this.b_save.Size = new System.Drawing.Size(75, 32);
@@ -219,7 +220,7 @@
             this.b_delete.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.b_delete.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.b_delete.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(6)))), ((int)(((byte)(1)))), ((int)(((byte)(51)))));
-            this.b_delete.Location = new System.Drawing.Point(415, 511);
+            this.b_delete.Location = new System.Drawing.Point(469, 511);
             this.b_delete.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.b_delete.Name = "b_delete";
             this.b_delete.Size = new System.Drawing.Size(75, 32);
@@ -234,7 +235,7 @@
             this.b_search.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.b_search.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.b_search.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(6)))), ((int)(((byte)(1)))), ((int)(((byte)(51)))));
-            this.b_search.Location = new System.Drawing.Point(282, 511);
+            this.b_search.Location = new System.Drawing.Point(347, 511);
             this.b_search.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.b_search.Name = "b_search";
             this.b_search.Size = new System.Drawing.Size(75, 32);
@@ -303,12 +304,28 @@
             this.bunifuElipse1.ElipseRadius = 36;
             this.bunifuElipse1.TargetControl = this;
             // 
+            // b_edit
+            // 
+            this.b_edit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(186)))), ((int)(((byte)(82)))));
+            this.b_edit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b_edit.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.b_edit.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(6)))), ((int)(((byte)(1)))), ((int)(((byte)(51)))));
+            this.b_edit.Location = new System.Drawing.Point(229, 511);
+            this.b_edit.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.b_edit.Name = "b_edit";
+            this.b_edit.Size = new System.Drawing.Size(75, 32);
+            this.b_edit.TabIndex = 21;
+            this.b_edit.Text = "Editar";
+            this.b_edit.UseVisualStyleBackColor = false;
+            this.b_edit.Click += new System.EventHandler(this.b_edit_Click);
+            // 
             // frm_admin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(6)))), ((int)(((byte)(1)))), ((int)(((byte)(51)))));
             this.ClientSize = new System.Drawing.Size(641, 561);
+            this.Controls.Add(this.b_edit);
             this.Controls.Add(this.lbl_message);
             this.Controls.Add(this.lbl_exit);
             this.Controls.Add(this.pb_profile);
@@ -370,5 +387,6 @@
         private System.Windows.Forms.Label lbl_exit;
         private System.Windows.Forms.Label lbl_message;
         private Bunifu.Framework.UI.BunifuElipse bunifuElipse1;
+        private System.Windows.Forms.Button b_edit;
     }
 }
